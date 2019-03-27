@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="clj-net-pcap.test.sniffer" errors="0" failures="0" tests="3" time="2.5598" timestamp="2015-08-24_13:10:04+0200">
+    <testcase name="test-sniffer" classname="clj-net-pcap.test.sniffer" time="1.2680">
+    </testcase>
+    <testcase name="sniffer-forwarder-interaction" classname="clj-net-pcap.test.sniffer" time="1.2890">
+    </testcase>
+    <testcase name="test-forwarder" classname="clj-net-pcap.test.sniffer" time="0.0013">
+    </testcase>
+</testsuite>

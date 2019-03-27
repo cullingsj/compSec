@@ -1,0 +1,77 @@
+master
+
+1.6.0
+  - Add functionality to get all filters.
+  - Allow to add filters at runtime.
+  - Allow to remove filters at runtime.
+  - Add more IP fields to default data structures.
+
+1.5.4
+  - Add unit tests for problematic parsing tasks.
+  - Fix problematic parsing functionality.
+
+1.5.3
+  - Fix ICMP parsing for flat maps.
+
+1.5.2
+  - Fix parsing for new formats.
+
+1.5.1
+  - Add missing Java interop methods.
+
+1.5.0
+  - Add prototype for extracting non-nested, flat maps from pcap packets.
+    This should help improving the performance.
+  - Add prototpye for extracting data as bean.
+    This should improve the performance even more.
+  - Further improve performance.
+  - Add functionality to extract ICMP sequence number.
+  - Add functionality to choose whether TCP flags are emitted as set or
+    integer for nested map forma.
+
+1.4.0
+  - Add a simple way to emit subnet information.
+
+1.3.1
+  - Throw runtime exceptions on critical errors.
+
+1.3.0
+  - Add function to extract all packets from a pcap file as vector of maps.
+  - Add adapter class for using clj-net-pcap from Java.
+  - Fix doc strings.
+  - Refactor namespace structure.
+
+1.1.0
+  - Add functionality for processing pcap data from files.
+
+1.0.7
+  - Add type to parsed map.
+
+1.0.6
+  - Increment jnetpcap version to reflect that we use a custom patched
+  version.
+    This version fixes various issues with respect to IPv6 address formating.
+  - Add the formating patches under jnetpcap.
+
+1.0.5
+  - IPv6 formating: print ":0:" instead of ":0000:" for
+    sequences of zeros that could not be shortened as "::".
+
+1.0.4
+  - Fix formating of IPv6 addresses in jnetpcap.
+    This fix solves issues with respect to intermediate sequences of zeros.
+
+1.0.3
+  - Fix formating of IPv6 addresses in jnetpcap.
+    This fix should be submitted upstream.
+
+1.0.2
+  - Add missing native libs for Linux i386
+
+1.0.1
+  - Be more robust in case of exceptions.
+  - Refactor function to extract bytes as vector.
+
+1.0.0
+  - New release as clj-net-pcap.
+
